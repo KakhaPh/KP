@@ -1,0 +1,22 @@
+p {
+	color: blue;
+	padding: 0; 
+	margin: 0;	
+	text-align: center;
+}
+.name { 
+	color: black;
+	font-size: 30px;
+ }
+.lastname {
+	color: green;
+	font-size: 28px;
+}
+.age {
+	color: darkblue;
+	font-size: 20px;
+}
+.hobby {
+	color: darkblue;
+	font-size: 20px; 
+ }

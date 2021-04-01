@@ -1,0 +1,16 @@
+.title1 {
+	font-size: 40px;
+}
+.li1 {
+	color: rgb(0,255,0);
+}
+.title2 {
+	font-weight: bold;
+}
+body {
+	background-image: url("./img/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 100px;
+	
+}
