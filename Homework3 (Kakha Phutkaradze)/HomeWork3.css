@@ -1,0 +1,59 @@
+body {
+    background-image: url(pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    padding: 50px;
+}
+* {
+    box-sizing: border-box;
+}
+.img {
+    float: left;
+    width: 20.30%;
+    padding: 20px;
+    margin-left: 50px;
+}
+div .B {
+	border: solid 1px;
+	width: 160px;
+	height: 100px;
+	margin: 15px;
+	display: inline-block;
+}
+div.container {
+	border: solid 2px;
+	width: 800px;
+	height: 130px;
+	margin: auto;
+	margin-top: 100px;
+	background-color: lightgrey;
+	text-align: center;
+}
+div#G1 {
+	background-image: linear-gradient(to right, red, green, blue);
+}
+div#G2 {
+	background-image: linear-gradient(to top, red, green, blue);
+}
+div#G3 {
+	background-image: linear-gradient(to left top, red, green, blue);
+}
+div#G4 {
+	background-image: linear-gradient(to bottom left, red, green, blue);
+}
+div#G5 {
+	background-image: radial-gradient(red, green, blue);
+}
+div#G6 {
+	background-image: radial-gradient(red 60%, green 65%, blue 100%);
+}
+div#G7 {
+	background-image: repeating-radial-gradient(blue 10%, green 40%, red 50%);
+}
+div#G8 {
+	background-image: radial-gradient(red 20%, green 20%, blue 30%);
+}
+#Copyright {
+	text-align: right;
+	font-size: 15px;
+}
