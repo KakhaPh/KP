@@ -1,0 +1,55 @@
+body{
+    background-color: lightgrey;
+}
+table {
+    background-color: lightgrey;
+    width: 800px;
+    height: 500px;
+    border: solid black 1px;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+td {
+    border: solid black 1px;
+    width: auto;
+    height: auto;
+}
+.tdred {
+    background-color: red;
+}
+.tdwhite {
+    background-color: white;
+    
+}
+.tdgreen {
+    font-style: italic;
+    background-color: limegreen;
+}
+.tdblue {
+    background-color: blue;
+}
+a.previous {
+	float: left;
+	margin-left: 20%;
+	font-size: 15px;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a.previous:hover {
+	opacity: 0.3;
+	color: green;
+}
+a.Next {
+	float: right;
+	margin-right: 20%;
+	font-size: 15px;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a.Next:hover {
+	opacity: 0.3;
+	color: white;
+}
