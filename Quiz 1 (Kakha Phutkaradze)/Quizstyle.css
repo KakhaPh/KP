@@ -1,0 +1,42 @@
+div#Bigbrder {
+    border-style: solid;
+    background:white;
+    color: black;
+    padding: 1em;
+    position: absolute;
+    top: 50%;
+      left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+div.brd1 {
+    border: 1px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+}
+.underline {
+    border: 1px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.txt {
+    text-align: center;
+}
+table {
+    margin: auto;
+    border: solid 10px;
+    color: blue;
+    width: 600px;
+    height: 500px;
+    border-collapse: collapse;
+}
+td {
+    border: solid 10px;
+
+}
+tr {
+    border: solid; 
+}
