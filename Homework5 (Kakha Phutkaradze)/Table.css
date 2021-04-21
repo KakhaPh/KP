@@ -1,0 +1,52 @@
+table{
+    border: solid;
+    margin: auto;
+    width: 500px;
+    height: 400px;
+}
+.td1{
+    border: solid;
+    background-color: rgb(131, 255, 74);
+}
+.td2{
+    border: solid;
+    width: 50px;
+    background-color: rgb(148, 255, 250);
+}
+.td2-1{
+    border: solid;
+    background-color: rgb(131, 255, 74);
+}
+.td3{
+    border: solid;
+    width: 50px;
+    background-color: rgb(148, 255, 250);
+}
+.td3-1 {
+    border: solid;
+    background-color: rgb(131, 255, 74);
+}
+.td4{ 
+    border: solid;
+    width: 50px;
+    background-color: rgb(148, 255, 250);
+}
+.td4-1 {
+    border: solid;
+    background-color: red;
+}
+.td4-2{
+    border: solid;
+    background-color: blue;
+}
+.td5 {
+    border: solid;
+    background-color: green;
+}
+.td5-1{
+    border: solid;
+    background-color: yellow;
+}
+.ahref {
+    text-align: center;
+}
