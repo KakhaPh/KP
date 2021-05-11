@@ -1,0 +1,31 @@
+form{
+    border: solid 2px;
+    width: 600px;
+    height: 600px;
+    margin-left: 400px;
+}
+h2{
+    color: gray;
+    margin-left: 40px;
+}
+td{
+    border: none;
+    padding: 40px;
+}
+.inp {
+    font-size: 18px;
+    border: none;
+    border-bottom: solid 1px gray;
+    width: 400px;
+    outline: none;
+}
+.inp1 {
+    font-size: 18px;
+    border: none;
+    border-bottom: dotted 1px gray;
+    width: 400px;
+    outline: none;
+}
+.text {
+    color: gray;
+}

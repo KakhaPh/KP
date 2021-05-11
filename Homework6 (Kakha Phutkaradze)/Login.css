@@ -1,0 +1,62 @@
+form{
+    border: solid;
+    border-top: none;
+    border-right: none;
+    border-left: 1px solid;
+    border-bottom: 2px solid;
+    width: 400px;
+    height: 350px;
+    background-color: #e7e1f7;
+    margin: auto;
+    margin-top: 150px;
+}
+
+h1{
+    margin-left: 150px;
+    padding: 10px;
+}
+.login input[type="text"], input[type="password"] 
+{
+    border:none;
+    outline: none;
+    margin: 10px;
+    margin-left: 60px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+   
+}
+.login input[type="text"]:hover{
+    background: #e7e1f7;
+    box-shadow: 2px 2px 5px #555;
+    transition: .3s;
+}
+.login input[type="password"]:hover{
+    background: #e7e1f7;
+    box-shadow: 2px 2px 5px #555;
+    transition: .3s;
+}
+.login input[type="submit"]
+{
+    border:none;
+    width: 250px;
+    padding: 10px;
+    margin-left: 70px;
+    color: white;
+    background-color: rgb(214, 42, 42);
+    border-radius: 5px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.login input[type="submit"]:hover{
+    cursor: -webkit-grab;
+    background: #ff0000;
+    color: #fff;
+    box-shadow: 2px 2px 5px #555;
+    transition: .3s;
+}
+.login a{
+    margin: 80px;
+    color: rgb(61, 178, 255);
+    font-size: 17px;
+}
