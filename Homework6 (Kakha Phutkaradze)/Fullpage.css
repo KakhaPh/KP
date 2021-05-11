@@ -1,0 +1,173 @@
+body{
+    background-image:linear-gradient(to right, rgb(117, 48, 182) , rgb(255, 62, 62));
+}
+.top{
+    border: solid;
+    width: 1150px;
+    height: 140px;
+    margin: auto;
+}
+img{
+    width: 1150px;
+    height: 140px;
+}
+.menubar{
+    border: solid;
+    width: 1150px;
+    height: 40px;
+    margin: auto;
+    margin-top: -3px;
+    
+}
+.main{
+    border: solid;
+    width: 140px;
+    height: 40px;
+    margin-top: -3px;
+    margin-left: -3px;
+}
+.registration{
+    border: solid;
+    width: 140px;
+    height: 40px;
+    margin-top: -46px;
+    margin-left: 140px;
+}
+.authorization{
+    border:solid;
+    width: 140px;
+    height: 40px;
+    margin-left: 283px;
+    margin-top: -46px;
+}
+.contact {
+    border: solid;
+    width: 140px;
+    height: 40px;
+    margin-left: 426px;
+    margin-top: -46px;
+}
+.middle{
+    border: solid;
+    border-bottom: 2px;
+    margin: auto;
+    width: 1150px;
+    height: 400px;
+    margin-top: -3px;
+    background-color: white;
+}
+.left{
+    border: solid 1px;
+    width: 210px;
+    margin-top: -402px;
+    height: 400px;
+    background: lightgray;
+    position:absolute;
+}
+h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+h4{
+    margin: 5px;
+    margin-left: 400px;
+    color: white;
+}
+h2{
+    margin-top: 0px;
+    margin-left: 45px;
+    color: rgb(116, 10, 138);
+}
+.last{
+    border: solid 2px;
+    width: 1151px;
+    height: 30px;
+    margin: auto;
+    margin-top: 0px;
+}
+.HTML{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.HTML5{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.CSS{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.CSS3{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.Photoshop{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.DreamWeaver{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.სხვა{
+    border: solid 1px;
+    height: 30px;
+    width: 210px;
+    margin-left: -2.5px;
+}
+.animation{
+    border: solid 1px;
+    height: 150px;
+    width: 180px;
+    background-color: blueviolet;
+    margin: 10px;
+    margin-left: 15px;
+        
+}
+.moveing{
+    font-size: 80px;
+    color: white;
+    margin-left: 50px;
+    
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    
+}
+.a2{
+    text-decoration: none;
+    color: blueviolet;
+}
+.a1:hover{
+    color:rgb(255, 62, 62);
+    transition: .3s;
+}
+.a2:hover{
+    color: rgb(255, 62, 62);
+    transition: .3s;
+}
+.none{
+    border: none ;
+    width: 935px;
+    height: 400px;
+    margin-left: 215px;
+}
+.txt1{
+    width: 400px;
+    margin-left: 250px;
+    margin-top: -250px;
+}
