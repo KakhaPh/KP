@@ -167,6 +167,8 @@ h2{
     margin-left: 215px;
 }
 .txt1{
+    border: dashed 2px blueviolet;
+    border-radius: 10px;
     width: 400px;
     margin-left: 250px;
     margin-top: -250px;
