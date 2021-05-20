@@ -1,0 +1,445 @@
+/* პირველი კონტეინერი */
+.container1{
+    border: solid 5px gray;
+    margin: auto;
+    width: 900px;
+    height: 495px;
+}
+
+.middle{
+    border: none;
+    min-height: 100px;
+    width: 520px;
+    margin: 5px;
+    margin-left: 220px;
+    display: flex;
+}
+
+.middle1{
+    border: none;
+    width: 525px;
+    margin: 5px;
+    margin-left: 215px;
+    display: flex;
+    
+}
+
+.header{
+    border: none;
+    background-color: rgb(78, 78, 255);
+    width:900px;
+    height: 60px;
+    display: flex;
+}
+
+.min_content{
+    border: none;
+    background-color: rgb(49, 255, 49);
+    width: 300px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar{
+    border: none;
+    background-color: rgb(154, 56, 224);
+    width: 220px;
+    height: 180px;
+    margin-left: 5px;
+    justify-content: center;
+    display: flex;
+}
+
+.twin{
+    border: none;
+    background-color: rgb(255, 145, 0);
+    width: 350px;
+    height: 180px;
+    margin-left: 5px;
+    
+}
+
+.footer{
+    border: none;
+    background-color: rgb(0, 0, 255);
+    width:900px;
+    height: 60px;
+    display: flex;
+}
+
+/* მეორე კონტეინერი */
+
+.bigone{
+    border: none;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+}
+
+.firstline{
+    border: none;
+    width: 350px;
+    height: 395px;
+}
+
+.F{
+    border: none;
+    border-radius: 10px;
+    width: 335px;
+    height: 170px;
+    margin: 5px;
+    background-color:rgb(154, 56, 224);
+}
+
+.S{
+    border: none;
+    border-radius: 10px;
+    width: 160px;
+    height: 140px;
+    margin: 5px;
+    display: inline-flex;
+    background-color:rgb(49, 255, 49);
+}
+
+.Th{
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 165px;
+    height: 35px;
+    display: inline-flex;
+    margin-bottom: 110px;
+}
+
+.Frth{
+    border: none;
+    border-radius:10px;
+    background-color: rgb(226, 83, 67);
+    width: 163px;
+    height: 98px;
+    margin-left: 175px;
+    margin-top: -110px;
+}
+
+.Ffth {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(49, 255, 49);
+    width: 335px;
+    margin: 5px;
+    margin-top: 10px;
+    height: 60px;
+}
+
+.Scndline{
+    border: none;
+    width: 360px;
+}
+
+.F1{
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(49, 255, 49);
+    height: 315px;
+    width: 150px;
+    margin-top: 5px;
+    display: inline-flex;
+}
+
+.S1{
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 180px;
+    height: 60px;
+    margin-bottom: 255px;
+    margin-left: 5px;
+    display: inline-flex;
+}
+
+.Th1{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(226, 83, 67);
+    width: 180px;
+    height: 250px;
+    margin-left: 160px;
+    margin-top: -255px;
+}
+
+.Frth1{
+    border: none;
+    border-radius: 10px;
+    width: 340px;
+    background-color:rgb(154, 56, 224);
+    height: 60px;
+    margin: 5px;
+    margin-top: 13px;
+}
+
+/* მესამე კონტეინერი */
+
+.bgborder{
+    border: solid 10px;
+    width:600px;
+    min-height: 300px;
+    margin: auto;
+}
+
+[class*="item_"]{
+    border: solid;
+    height: 60px;
+    margin: 1px;
+    background-color: rgb(177, 172, 172);
+    display: flex;
+}
+
+.bc1{
+    border: solid 1px;
+    background-color: salmon;
+    border-top: none;
+    width: 140px;
+    height: 60px;
+}
+
+.bc2{
+    border: solid 1px;
+    border-top: none;
+    background-color:springgreen;
+    width: 100px;
+    height: 60px; 
+}
+
+.bc3{
+    border: solid 1px;
+    border-top: none;
+    background-color: turquoise;
+    width: 180px;
+    height: 60px; 
+}
+
+.ttle{
+    position: absolute;
+    z-index:1;
+    margin-left: 245px;
+}
+
+.item_2{
+    justify-content: flex-end;
+}
+.item_3{
+    justify-content: center;
+}
+.item_4{
+    justify-content: space-between;
+}
+.item_5{
+    justify-content: space-around;
+}
+.ttle2{
+    position: absolute;
+    margin-right: 245px
+}
+.ttle3{
+    position: absolute;
+    margin-left: 25px;
+}
+.ttle4{
+    position: absolute;
+    margin-left: 225px;
+}
+
+.ttle5{
+    position: absolute;
+    margin-left: 5px;
+}
+
+/* მეოთხე კონტეინერი */
+
+.bigonne{
+    border: none;
+    width: 800px;
+    min-height: 400px;
+    margin: auto;
+}
+.k1{
+    border: none;
+    background-color: green;
+    width:790px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    color:white;
+}
+
+.k2, .k3{
+    border: none;
+    background-color: green;
+    width: 388px;
+    height: 50px;
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+
+.k4, .k5, .k6{
+    border: none;
+    background-color: green;
+    width: 254px;
+    height:50px;
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+
+.k7, .k8, .k9, .k10{
+    border: none;
+    background-color: green;
+    width: 187px;
+    height: 50px;
+    margin: 5px;
+    display:inline-flex;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+
+.k11, .k12, .k13, .k14, .k15, .k16{
+    border: none;
+    background-color: green;
+    width: 120px;
+    height: 50px;
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+
+.k{
+    border: none;
+    background-color: green;
+    width: 53px;
+    height: 50px;
+    margin: 5px;
+    display: inline-flex; 
+    text-align: center;
+    color:white;
+    justify-content: center;
+}
+
+/* მეხუთე კონტეინერი */
+
+.mainborder{
+    border: none;
+    width: 800px;
+    height: 510px;
+    margin: auto;
+    display: flex;
+}
+
+.line1{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    margin: 5px;
+    height: 100%;
+}
+.vv{
+    border: none;
+    height: 505px;
+    width: 50px;
+    margin: 5px;
+    margin-top: 0px;
+    flex-direction: row;
+}
+.line2, .line3{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 50%;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.line4, .line5, .line6{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 33%;
+    margin-top: 5px;
+}
+
+.line7, .line8, .line9, .line10{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 24.5%;
+    margin-top: 5px;
+}
+
+.line11, .line12, .line13, .line14, .line15{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 19.4%;
+    margin-top: 5px;
+}
+
+.line16, .line17, .line18, .line19, .line20, .line21{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 16%;
+    margin-top: 5px;
+}
+
+.line22, .line23, .line24, .line25, .line26, .line27, .line28{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 13.55%;
+    margin-top: 5px;
+}
+
+.line29, .line30, .line31, .line32, .line33, .line34, .line35, .line36{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 11.7%;
+    margin-top: 5px;
+}
+
+.line37, .line38, .line39, .line40, .line41, .line42, .line43, .line44, .line45{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 10.3%;
+    margin-top: 5px;
+}
+.line46, .line47, .line48, .line49, .line50, .line51, .line52, .line53, .line54, .line55{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 9.16%;
+    margin-top: 5px;
+}
+.line56, .line57, .line58, .line59, .line60, .line61, .line62, .line63, .line64, .line65, .line66{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 8.25%;
+    margin-top: 5px;
+}
+.line67, .line68, .line69, .line70, .line71, .line72, .line73, .line74, .line75, .line76, .line77, .line78{
+    border: none;
+    background-color: blue;
+    width: 50px;
+    height: 7.49%;
+    margin-top: 5px;
+}  
