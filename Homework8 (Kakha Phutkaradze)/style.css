@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 120, 161);
+}
+
+header{
+    border: none;
+    border-radius: 20px 20px 0px 0px;
+    height: 100px;
+    width: 67.5%;
+    background-color: rgb(73, 187, 80);
+    margin: auto;
+}
+.sr{
+    float: right;
+    border: none;
+    height: 80px;
+    padding: 45px;
+    margin: 5px;
+    color: #fff;
+}
+
+.sr1{
+    float: right;
+    border: none;
+    height: 80px;
+    padding: 45px;
+    color: #fff;
+    margin: 5px;
+}
+.sr:hover,.sr1:hover{
+    background: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pctr{
+    border: none;
+    height: 260px;
+    width: 67.5%;
+    margin: auto;
+}
+.img1{
+    height: 260px;
+    width: 100%;
+    
+}
+.hder{
+    margin-left: 20px;
+    margin-top: 0px;
+    height: 90px;
+}
+
+main{
+    border:none;
+    width:67.5%;
+    min-height: 300px;
+    margin:auto;
+    margin-top: -4px;
+    background-color: rgb(204, 201, 201);
+}
+
+
+.left-bar{
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.bar1, .bar2{
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+.td1, .clr1{
+    border-top: none;
+    border-left: solid black 7px;
+    border-bottom: solid 2px gray;
+    box-shadow: 1px 1px 40px 0px black;
+    width: 40%;
+    height: 30px;
+    background-color:rgb(3, 119, 173);
+    color: white;
+}
+
+.clr1{
+    background-color:rgb(60, 202, 60);
+}
+
+.td1:hover{
+    border-left: solid 5px rgb(60, 202, 60);
+    background-color: blue;
+    cursor: pointer;
+}
+
+.right-bar{
+    border: solid;
+    border-radius: 10px 0px 0px 0px;
+    border-bottom: none;
+    width: 18%;
+    float: right;
+    margin-top: -208px;
+    min-height: 150px;
+}
+
+.td2{
+    border-bottom: solid 1px gray;
+    width: 1%;
+    height: 25px;
+    background-color: black;
+    color: white;
+}
+
+.td2:hover{
+    background-color: rgb(173, 173, 173);
+    border-left:rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.middle{
+    border: none;
+    background-color: white;
+    width: 59.5%;
+    min-height: 550px;
+    margin-left: 202px;
+    margin-top: -210px;
+}
+
+.title{
+    border: none;
+    background-color: rgb(230, 228, 228);
+    width: 35%;
+    height: 40px;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.ttt{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.game{
+    border: none;
+    width: 38%;
+    min-height: 200px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.btm{
+    border: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 240%;
+    height:40px;
+    margin: 5px;
+    margin-left: -4px;
+    padding: 4px;
+    display: flex;
+}
+
+.comment{
+    border: none;
+    background-color: rgb(30, 120, 161);
+    width: 65%;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+    color: white;
+    padding-left: 10px;
+}
+
+.views{
+    border: none;
+    background-color: rgb(30, 120, 161);
+    width: 50%;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+    color: white;
+    padding-left: 10px;
+}
+
+.redmr{
+    border: none;
+    background-color: rgb(60, 202, 60);
+    width: 50%;
+    height: 25px;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-left: 170px;
+    color: white;
+    padding-left: 10px;
+}
+.comment:hover,.views:hover,.redmr:hover{
+    cursor: pointer;
+    background-color: rgb(80, 177, 223);
+}
+.first{
+    border: none;
+    width: 200px;
+    height: 250px;
+}
+.img2{
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.bottom{
+    border: none;
+    background-color: lightgray;
+    margin: 2px;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.second{
+    border: none;
+    min-width: 300px;
+    height: 250px;
+    margin-left: 210px;
+    margin-top: -245px;
+}
+
+footer{
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+    height: 70px;
+    width: 67.5%;
+    background-color: rgb(73, 187, 80);
+    margin: auto;
+}
+.st0{
+    color:#fff;
+    padding: 10px;
+}
+
+[class*="stp"]{
+    float: right;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    margin-top: -20px;
+    
+}
+.stp1:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp2:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp3:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp4:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp5:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stp6:hover{
+    background-color: rgb(134, 214, 110);
+    border-radius: 10px;
+    cursor: pointer;
+}
