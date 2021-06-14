@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Maleo Clone By kakha</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" type="image/x-icon" href="Pictures/Icon.jpg">
+   <script src="maleo.js"></script>
+   
+</head>
+<body>
+    <!-- Header Options -->
+   <div class="header">
+       <img src="Pictures/logo.png" class="logo">
+
+       <h2 class="hder-title"><a href="Quotes.html"  style="color:white; text-decoration: none;">შეთავაზებები</a></h2>
+       <h2 class="hder-title"><a href="Services.html"style="color:white; text-decoration: none;" >სერვისები</a></h2>
+       <h2 class="hder-title"><a href="Information.html" style="color:white; text-decoration: none;">ინფორმაცია</a></h2>
+       <h2 class="hder-title"><a href="Contact.html" style="color:white; text-decoration: none;">კონტაქტი</a></h2>
+
+    <!-- Sign in / Registration -->
+
+       <img src="Pictures/Signlogo.png" class="Signlogo">
+       <input type="button" value="შესვლა" id="btn1">
+       <div id="right-bar">
+           <h1 style="color: white; margin-left: 20px;">შესვლა</h1>
+           <input type="text" placeholder="ელ.ფოსტა(მომხმარებლის სახელი)*" style=" border: none; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;" >
+           <input type="password" placeholder="პაროლი" style="margin-top: 20px; padding: 10px; border: none;  margin-left: 15px; width: 90%; border-radius: 10px;" >
+           <h4><a href="#" style="margin-left: 20px">პაროლის აღდგენა</a></h4>
+           <input type="submit" value="შესვლა" style="background-color: #00b7f0; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;" >>
+       </div>
+       <input type="button" value="რეგისტრაცია" id="btn2">
+       <div id="right-bar-2">
+           <h1 style="color: white; margin-left: 20px;">რეგისტრაცია</h1>
+           <input type="text" placeholder="სახელი(ლათინურად)" class="reg0" style="display: inline-block">
+           <input type="text" placeholder="გვარი(ლათინურად)" class="reg0">
+           <input type="text" placeholder="სახელი(ქართულად)" class="reg0">
+           <input type="text" placeholder="გვარი(ქართულად)" class="reg0">
+           <input type="text" placeholder="პირადი ნომერი" class="reg0">
+           <h3 style="color: white">სქესი*</h3>
+           <input type="radio"  name="rad1" class="reg1"><a style="color: white">მამრობითი</a>
+           <input type="radio" name="rad1" class="reg1"><a style="color: white">მდედრობითი</a>
+           <h3 style="color: white">დაბადების დღის თარიღი</h3>
+           <div class="select" style="display: flex;">
+            <select class="reg1">
+               <option>დღე</option>
+               <option>1</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+               <option>5</option>
+               <option>6</option>
+               <option>7</option>
+           </select class="reg1">
+           <select>
+               <option>თვე</option>
+               <option>იანვარი</option>
+               <option>თებერვალი</option>
+               <option>მარტი</option>
+               <option>აპრილი</option>
+               <option>მაისი</option>
+               <option>ივნისი</option>
+               <option>ივლისი</option>
+           </select>
+           <select class="reg1">
+               <option>წელი</option>
+               <option>1995</option>
+               <option>1996</option>
+               <option>1997</option>
+               <option>1998</option>
+               <option>1999</option>
+               <option>2000</option>
+           </select>
+        </div>
+        <hr>
+        <input type="text" placeholder="მობილურის ნომერი*" class="reg1">
+        <br><br>
+        <input type="Email" placeholder="ელექტრონული ფოსტა*" class="reg1">
+        <input type="password" placeholder="შეიყვანეთ პაროლი*" class="reg1">
+        <input type="password" placeholder="გაიმეორეთ პაროლი*" class="reg1">
+
+        <input type="Submit" name="რეგისტრაცია" class="regsubmit">
+        
+       </div>
+
+    <!-- Language Switch -->
+    <div class="lang-menu">
+        <div class="selected-lang">
+            
+        </div>
+        <ul>
+            <li>
+                <a class="en"></a>
+            </li>
+            <li>
+                <a class="ru"></a>
+            </li>
+        </ul>
+    </div>
+
+   </div>
+   <!-- Row Options -->
+
+            <!-- Slide -->
+   <div class="row">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            
+            <div class="slide first">
+                <img src="Pictures/hero-sandy.png" class="sandy">
+                <h2 class="sandy-title">#დაიცავიდისტანცია</h2>
+                <img src="Pictures/img-mobile-en (1).jpg">
+            </div>
+            <div class="slide">
+                <img src="Pictures/hero-sandy.png" class="sandy">
+                <h2 class="sandy-title-2">გამოიწერე სასურველი ნივთი ამერიკიდან და დააგროვე ბონუს ქულები!</h2>
+                <br><br><br>
+                <h5 class="sandy-title-under">ამანათის მიღება შეგიძლია მთელი საქართველოს მასშტაბით! Maleo.ge ჩვენთან ერთად შოპინგი უკეთესია</h5>
+                <img src="Pictures/img-mobile-en.png">
+            </div>
+            <div class="slide">
+                <img src="Pictures/hero-sandy.png" class="sandy">
+                <h2 class="sandy-title-2">გამოიწერე სასურველი ნივთი ამერიკიდან და მიიღე საქართველოს მასშტაბით 1კგ მხოლოდ 6.99$-ად!</h2>
+                <img src="Pictures/img-mobile-en.jpg">
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+   </div>
+                <!-- Bottom side-->
+   <h1 style="text-align: center;">რატომ მალეო?</h1>
+   <div class="bottom">
+        <div class="order">
+            <img src="Pictures/exicon-01.png" class="exc1">
+            <p class="undert">მიწოდება მთელი საქართველოს მასშტაბით</p>
+        </div>
+        <div class="lprice">
+            <img src="Pictures/exicon-02.png" class="exc2">
+            <p class="undert">საუკეთესო ტარიფი</p>
+        </div>
+        <div class="mark">
+            <img src="Pictures/exicon-03.png" class="exc3">
+            <p class="undert">გზავნილის ადგილმდებარეობის კონტროლი</p>
+        </div>
+   </div>
+   <hr style="border: solid 1px lightgrey">
+   <h1 style="text-align: center;margin-top: 30px;">სპეციალური შეთავაზებები</h1>
+   <div class="newsfeed">
+        <div class="news1">
+            <img src="Pictures/600ea641501ff.png" class="news2.1">
+            <h5  class="comment" style="color: lightgrey">25 იანვარი, 2021</h5>
+            <p class="comment" >თუ ყურსასმენი თქვენი მუდმივი თანამგზავრია, ეს შემოთავაზება თქვენთვის არის. გამოიწერეთ მალეოს დახმარებით, ჩვენთან ტარიფი უცვლელია, ამერიკიდან 1კგ-6.99$, ევროპიდან 1კ-3$</p>
+        </div>
+        <div class="news2">
+            <img src="Pictures/600820332c073.png" class="news2.1">
+            <h5  class="comment" style="color: lightgrey">20 იანვარი, 2021</h5>
+            <p class="comment" >გამოიწერე სახლის ვინტაჟური აქსესუარი, მალეო კი სწრაფად ჩამოგიტანთ. ამერიკიდან 1კგ-6.99$, ევროპიდან 1კგ-3$. ჩვენთან წონა არ მრგვალდება</p>
+        </div>
+        <div class="news3">
+            <img src="Pictures/6005b3cb9fcdc.png" class="news2.1">
+            <h5  class="comment" style="color: lightgrey">18 იანვარი, 2021</h5>
+            <p class="comment" >მზად ხართ ჯორჯ მარტინის ჯადოსნურ სამყაროში დასაბრუნებლად? გამოიწერეთ მალეოს დახმარებით და გადაიხადეთ რეალური წონის საფასური</p>
+        </div>
+        <div class="news4">
+            <img src="Pictures/5fff3960e6823.png" class="news2.1">
+            <h5  class="comment" style="color: lightgrey">13 იანვარი, 2021</h5>
+            <p class="comment" >ააწყვე შენი გამორჩეული Look-ი Adidas-ის კოლექციიდან, ამანათს მალეო ჩამოგიტანთ ევროპიდან 1კგ-3$, ამერიკიდან 1კგ-6.99$</p>
+        </div>
+   </div>
+   
+
+
+
+   <!-- Footer Options -->
+   <div class="footer">
+        <img src="Pictures/PlayStore.png" class="icon1">
+        <img src="Pictures/AppStore.png" class="icon2">
+        <p class="uc">© შპს "საქართველოს ფოსტა" ყველა უფლება დაცულია</p>
+
+   </div>
+
+
+   
+   <!-- Script -->
+       <script>
+           document.getElementById("btn1").addEventListener("click",function()
+        {
+            var box1=document.getElementById("right-bar");
+            if(box1.style.display=="none")
+            {
+                box1.style.display="block";
+            }
+            else
+            {
+                box1.style.display="none";
+            }
+        })
+
+        document.getElementById("btn2").addEventListener("click",function()
+        {
+            var box1=document.getElementById("right-bar-2");
+            if(box1.style.display=="none")
+            {
+                box1.style.display="block";
+            }
+            else
+            {
+                box1.style.display="none";
+            }
+        })
+       </script>
+</body>
+</html>

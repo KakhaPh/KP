@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>შეთავაზებები</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="shortcut icon" type="image/x-icon" href="Pictures/Icon.jpg">
+   <script src="maleo.js"></script>
+   
+</head>
+<body>
+    <!-- Header Options -->
+   <div class="header">
+       <a href="main.html"><img src="Pictures/logo.png" class="logo"></a>
+
+       <h2 class="hder-title"><a href="Quotes.html"  style="color:white; text-decoration: none;">შეთავაზებები</a></h2>
+       <h2 class="hder-title"><a href="Services.html"style="color:white; text-decoration: none;" >სერვისები</a></h2>
+       <h2 class="hder-title"><a href="Information.html" style="color:white; text-decoration: none;">ინფორმაცია</a></h2>
+       <h2 class="hder-title"><a href="Contact.html" style="color:white; text-decoration: none;">კონტაქტი</a></h2>
+
+    <!-- Sign in / Registration -->
+
+       <img src="Pictures/Signlogo.png" class="Signlogo">
+       <input type="button" value="შესვლა" id="btn1">
+       <div id="right-bar">
+           <h1 style="color: white; margin-left: 20px;">შესვლა</h1>
+           <input type="text" placeholder="ელ.ფოსტა(მომხმარებლის სახელი)*" style=" border: none; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;" >
+           <input type="password" placeholder="პაროლი" style="margin-top: 20px; padding: 10px; border: none;  margin-left: 15px; width: 90%; border-radius: 10px;" >
+           <h4><a href="#" style="margin-left: 20px">პაროლის აღდგენა</a></h4>
+           <input type="submit" value="შესვლა" style="background-color: #00b7f0; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;" >>
+       </div>
+       <input type="button" value="რეგისტრაცია" id="btn2">
+       <div id="right-bar-2">
+           <h1 style="color: white; margin-left: 20px;">რეგისტრაცია</h1>
+           <input type="text" placeholder="სახელი(ლათინურად)" class="reg0" style="display: inline-block">
+           <input type="text" placeholder="გვარი(ლათინურად)" class="reg0">
+           <input type="text" placeholder="სახელი(ქართულად)" class="reg0">
+           <input type="text" placeholder="გვარი(ქართულად)" class="reg0">
+           <input type="text" placeholder="პირადი ნომერი" class="reg0">
+           <h3 style="color: white">სქესი*</h3>
+           <input type="radio"  name="rad1" class="reg1"><a style="color: white">მამრობითი</a>
+           <input type="radio" name="rad1" class="reg1"><a style="color: white">მდედრობითი</a>
+           <h3 style="color: white">დაბადების დღის თარიღი</h3>
+           <div class="select" style="display: flex;">
+            <select class="reg1">
+               <option>დღე</option>
+               <option>1</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+               <option>5</option>
+               <option>6</option>
+               <option>7</option>
+           </select class="reg1">
+           <select>
+               <option>თვე</option>
+               <option>იანვარი</option>
+               <option>თებერვალი</option>
+               <option>მარტი</option>
+               <option>აპრილი</option>
+               <option>მაისი</option>
+               <option>ივნისი</option>
+               <option>ივლისი</option>
+           </select>
+           <select class="reg1">
+               <option>წელი</option>
+               <option>1995</option>
+               <option>1996</option>
+               <option>1997</option>
+               <option>1998</option>
+               <option>1999</option>
+               <option>2000</option>
+           </select>
+        </div>
+        <hr>
+        <input type="text" placeholder="მობილურის ნომერი*" class="reg1">
+        <br><br>
+        <input type="Email" placeholder="ელექტრონული ფოსტა*" class="reg1">
+        <input type="password" placeholder="შეიყვანეთ პაროლი*" class="reg1">
+        <input type="password" placeholder="გაიმეორეთ პაროლი*" class="reg1">
+        
+       </div>
+
+    <!-- Language Switch -->
+    <div class="lang-menu">
+        <div class="selected-lang">
+            
+        </div>
+        <ul>
+            <li>
+                <a class="en"></a>
+            </li>
+            <li>
+                <a class="ru"></a>
+            </li>
+        </ul>
+    </div>
+
+   </div>
+   <!-- Row Options(შეთავაზებები) -->
+   <h1 style="text-align: center;">ვიდეო ინსტრუქცია</h1>
+   <embed style="width:800px; height:400px; margin-left: 20%;"  src="https://www.youtube.com/embed/EwdKsbPwD_U"></embed>
+   <br><br>
+   <h1 style="text-align: center;">გაზიარება:</h1>
+   <img src="Pictures/mailfb.png" style="margin-left: 45%; cursor: pointer">
+   <!-- Footer Options -->
+   <div class="footer">
+        <img src="Pictures/PlayStore.png" class="icon1">
+        <img src="Pictures/AppStore.png" class="icon2">
+        <p class="uc">© შპს "საქართველოს ფოსტა" ყველა უფლება დაცულია</p>
+
+   </div>
+
+
+   
+   <!-- Script -->
+   <script>
+    document.getElementById("btn1").addEventListener("click",function()
+ {
+     var box1=document.getElementById("right-bar");
+     if(box1.style.display=="none")
+     {
+         box1.style.display="block";
+     }
+     else
+     {
+         box1.style.display="none";
+     }
+ })
+
+ document.getElementById("btn2").addEventListener("click",function()
+ {
+     var box1=document.getElementById("right-bar-2");
+     if(box1.style.display=="none")
+     {
+         box1.style.display="block";
+     }
+     else
+     {
+         box1.style.display="none";
+     }
+ })
+</script>
+   
+
+</body>
+</html>

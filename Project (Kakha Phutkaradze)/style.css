@@ -1,0 +1,399 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    color: #585a5c;
+    background-color: #ffffff;
+    font: normal normal normal 14px/normal 'Arial Web','Arial','Helvetica','Verdana',sans-serif;
+}
+html, body, header, footer, main, nav, section, hgroup, h1, h2, h3, h4, h5, h6, address, article, aside, div, p, dl, dt, dd, ol, ul, li, hr, pre, blockquote, figure, figcaption, a, span, sub, sup, b, i, u, ruby, rt, rp, bdi, bdo, br, wbr, abbr, cite, code, time, samp, dfn, em, kbd, mark, s, small, strong, q, var, del, ins, embed, iframe, img, object, param, video, audio, source, trackcanvas, map, area, table, caption, colgroup, col, thead, tbody, tfoot, tr, th, td, form, label, legend, details, summary, command, menu, menuitem {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div{display:block;
+}
+
+html {
+    font-size: 100%;
+    width: auto;
+    height: auto;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* Header Options */
+.header{
+    height: 80px;
+    background-color: #00b7f0;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.logo{
+    max-width:100%;
+    max-height: 68%;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+ 
+.hder-title{
+    margin:20px;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: bold;
+}
+#right-bar,#right-bar-2{
+    border: none;
+    background-color: #4d5050;
+    height: 800px;
+    width: 25%;
+    margin-left: 75%;
+    margin-top: 5.9%;
+    position: absolute;
+    display: none;
+}
+#btn1{
+    border:none;
+    margin-left: 15%;
+    color:white;
+    background-color:#00b7f0;
+    padding:  10px; 
+}
+#btn2{
+    border: none;
+    border-left: solid 1px greenyellow;
+    color: white;
+    background-color: #00b7f0;
+    margin-left: 1.6%;
+    padding: 10px;
+}
+#btn1:hover,#btn2:hover{
+    background-color:rgb(80, 99, 187);
+}
+#hder-title-1{
+    margin:20px;
+    color: #fff;
+    margin-left: 30px;
+    font-weight: bold;
+    border: none;
+    background-color:#00b7f0;
+    border:none;
+    width: 100%;
+    height:80px;
+    margin: 0;
+    margin-left: 0;
+}
+.Signlogo{
+    position: absolute;
+    margin-left: 73.5%;
+    margin-top: 20px;
+}
+/* Sign in / Registration Panel */
+.reg0{
+    margin: 1px 3px;
+    width: 160px;
+    padding: 7px;
+}
+.reg1{
+    margin: 1px 3px;
+    width: 160px;
+    padding: 7px;
+}
+.regsubmit{
+    margin: 10px 35px;
+    width: 80%;
+    padding: 7px;
+    background-color:#00b7f0;
+    border: none;
+}
+
+/* Language Switch */
+.selected-lang{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    line-height:2;
+    width: 120px;
+    float: right;
+}
+.selected-lang:before{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url("https://www.countryflags.io/ge/flat/32.png");
+}
+.lang-menu{
+    margin-top: 25px;
+    position: relative;
+    float: right;
+
+}
+.lang-menu ul{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    width: 60px;
+    display: none;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.lang-menu ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.lang-menu ul li a{
+    width: 58px;
+    display: block;
+    padding: 5px 10px;
+}
+.lang-menu ul li a:hover{
+    background-color: #f2f2f2;
+}
+.lang-menu ul li a:before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.lang-menu:hover ul{
+    display: block;
+    cursor: pointer;
+}
+.en:before{
+    background-image: url("https://www.countryflags.io/us/flat/32.png");
+}
+.ru:before{
+    background-image: url("https://www.countryflags.io/RU/flat/32.png");
+}
+
+/*  Row Options*/
+
+
+.row{
+    overflow-y: hidden;
+    max-width: 100%;
+}
+
+/* Slides */
+.sandy{
+    max-width: 40%;
+    max-height: 250px;
+    margin-top: 150px;
+    position: absolute;
+}
+.sandy-title-under{
+    color: white;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 50px;
+    max-width: 350px;
+}
+.sandy-title{
+    color: white;
+    font-size:x-large;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.sandy-title-2{
+    color: white;
+    font-size:x-large;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 50px;
+    max-width:400px;
+}
+.slide,.first{
+    position: relative;
+    width: 100%;
+}
+.slider{
+    max-width:100%;
+    height:500px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img{
+    width:100%;
+    height:500px;
+
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid #40d3dc;
+    padding:  5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.manual-btn:hover{
+    background:#40D3DC;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 460px;
+    
+}
+
+.navigation-auto div{
+    border: 2px solid #40d3dc;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40d3cd;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40d3cd;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40d3cd;
+}
+
+/* Bottom side */
+.bottom{
+    display: flex;
+    margin: 100px;
+}
+.exc1,.exc2,.exc3{
+    width: 50%;
+    margin-left: 120px;
+}
+.undert{
+    margin-left: 150px;
+    max-width: 200px;
+}
+/* News Feed */
+.newsfeed{
+    display: flex;
+    min-height: 450px;
+}
+[class*="news2."]{
+    width:80%;
+    height: 200px;
+    margin: 20px;
+}
+.comment{
+    width: 250px;
+    margin-left:30px;
+}
+/* Footer Options */
+.footer{
+    height: 250px;
+    background-color: #393b3c;
+    display: flex;
+    
+}
+.icon1{
+    margin: 50px;;
+    width: 150px;
+    height: 50px;
+    margin-left: 35%;
+}
+.icon2{
+    margin: 50px;
+    width: 150px;
+    height: 50px;
+}
+.uc{
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 37%;
+    color: white;
+}
+    
+ 
+@media (min-width:600px){
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+ 
+ @media (min-width:768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
