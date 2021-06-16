@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.Title{
+    display: flex;
+    align-items: center;
+
+}
+.Title ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin:10px;
+}
+.Title a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.Title li::before{ 
+     display: flex;
+    content: '';
+    background: orange;
+    width: 2px;
+    display: block;
+    position: absolute;
+    height: 20px;
+    margin-left: -15px;
+
+}
+.Title li{
+    color: #fff;
+    list-style: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.Header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #191919;
+    border-bottom: 10px solid orange;
+}
+.Logo{
+    display: flex;
+    padding: 30px 30px;
+    justify-content: space-between;
+}
+.Logo h1{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.Logo span{
+    color: orange;
+    text-transform: uppercase;
+}
+.mainimage1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(59, 59, 59);
+}
+.mainimage1 h1{
+    color: white;
+    font-family: sans-serif;
+}
+.mainimage1 img{
+    width: auto;    
+    object-fit: contain;
+}
+.mainbottom{
+    margin-top: 15px;
+}
+.mainbottom p{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+}
+.maintitle h3{
+    font-family: sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.bottomside {
+    margin-top: 35px;
+}
+.bottomside h2{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bottomsidetext h4{
+    color: orange;
+    margin-top: 10px;
+}
+.bottomsidetext{
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+    color: gray;
+}
+.bottomsidetext p{
+    margin-top: 5px;
+
+}
+.maincont{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+.mainleft{
+    padding: 15px 15px;
+}
+.Big-Title{
+    margin-left: 15px;
+}
+.right-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right-txt span{
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.title1{
+    margin-top: 30px;
+}
+.title1 h1{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: orange;
+}
+.mainimg{
+    margin-top: 10px;
+}
+.mainimagetxt h1{
+    color: orange;
+    font-size: 18px;
+    max-width: 300px;
+    margin: 5px auto;
+    font-family: sans-serif;
+}
+.mainimagetxt p{
+    color: gray;
+    padding: 5px;
+    font-family: sans-serif;
+    max-width: 400px;
+    font-size: 14px;
+}
+.footer-titles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-titles ul{
+    justify-content: space-around;
+    display: flex;
+    max-width: 700px;
+}
+footer{
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 15px;
+    height: fit-content;
+    background: rgb(219, 218, 218);
+}
+footer p{
+    margin-top: 15px;
+}
+.rightone{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+}
+.footer-titles li{
+    font-family: sans-serif;
+    list-style: none;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+.footer-titles a{
+    font-family: sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+.footer-titles li::before{ 
+    display: flex;
+   content: '';
+   background: rgb(0, 0, 0);
+   width: 2px;
+   display: block;
+   position: absolute;
+   height: 20px;
+   margin-left: -15px;
+
+}
+.mainright1{
+    margin-top: 15px;
+}
+.title1 p{
+    color: gray;
+    max-width: 600px;
+    margin: 5px auto;
+}
+.right-txt p{
+    font-family: sans-serif;
+    font-size: 14px;
+    max-width: 600px;
+    text-transform: uppercase;
+    color: gray;
+}
+.text2{
+    margin-top: 30px;
+    max-width: 650px;
+    text-align: center;
+    margin: 20px auto;
+}
+.text2 span{
+    font-family: sans-serif;
+    color: rgb(204, 133, 0);
+}
+@media only screen and (max-width: 600px) {
+    .Title li::before{ 
+        display: none;
+   }
+}
+@media only screen and (max-width: 800px) {
+    .footer-titles ul{
+        flex-direction: column;
+    }
+    .footer-titles li{
+        margin-top: 15px;
+    }
+}
