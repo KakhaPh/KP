@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>შეთავაზებები</title>
-   <link rel="stylesheet" href="style.css">
-   <link rel="shortcut icon" type="image/x-icon" href="Pictures/Icon.jpg">
-   <script src="maleo.js"></script>
-   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Pictures/Icon.jpg">
+    <script src="maleo.js"></script>
+    <title>Maleo Clone By Kakha</title>
 </head>
 <body>
-    <!-- Header Options -->
-   <div class="header">
-       <a href="main.html"><img src="Pictures/logo.png" class="logo"></a>
+    <div class="container">
+        <!-- Header Options -->
+    <header>
+                    <!-- Navigation-bar-For-Mobile-And-Tablet -->
+        <span class="Navigation-bar" onclick="openNav()">&#9776;</span>
+        <div id="Navigation" class="Navigate">
+            <i href="javascript:void(0)" class="out" onclick="closeNav()">&times;</i>
+            <li> <a href="Quotes.html">შეთავაზებები</a> </li>
+            <li> <a href="Services.html">სერვისები</a> </li>
+            <li> <a href="Information.html">ინფორმაცია</a> </li>
+            <li> <a href="Contact.html">კონტაქტი</a> </li>
+        </div>
+          
+                                <!-- Links -->
+        <a href="main.html" class="Logo"><img src="Pictures/logo.png" class="Logo"></a>
 
-       <h2 class="hder-title"><a href="Quotes.html"  style="color:white; text-decoration: none;">შეთავაზებები</a></h2>
-       <h2 class="hder-title"><a href="Services.html"style="color:white; text-decoration: none;" >სერვისები</a></h2>
-       <h2 class="hder-title"><a href="Information.html" style="color:white; text-decoration: none;">ინფორმაცია</a></h2>
-       <h2 class="hder-title"><a href="Contact.html" style="color:white; text-decoration: none;">კონტაქტი</a></h2>
+        <div class="header-links">
+            <ul>
+                <li> <a href="Quotes.html" class="Links">შეთავაზებები</a></li>
+                <li> <a href="Services.html" class="Links">სერვისები</a></li>
+                <li> <a href="Information.html" class="Links">ინფორმაცია</a></li>
+                <li> <a href="Contact.html" class="Links">კონტაქტი</a></li>
+            </ul>
+        </div>
 
-    <!-- Sign in / Registration -->
+                          <!-- Sign in / Registration -->
 
-       <img src="Pictures/Signlogo.png" class="Signlogo">
-       <input type="button" value="შესვლა" id="btn1">
-       <div id="right-bar">
+        <div class="signreg">
+            <img src="Pictures/Signlogo.png" class="Signlogo">
+            <input type="button" value="შესვლა" id="btn1">
+            <input type="button" value="რეგისტრაცია" id="btn2">  
+        </header>
+        <div class="allsr">
+        <div id="right-bar">
+           <a href="main.html" class="times">&times;</a>
            <h1 style="color: white; margin-left: 20px;">შესვლა</h1>
            <input type="text" placeholder="ელ.ფოსტა(მომხმარებლის სახელი)*" style=" border: none; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;" >
            <input type="password" placeholder="პაროლი" style="margin-top: 20px; padding: 10px; border: none;  margin-left: 15px; width: 90%; border-radius: 10px;" >
            <h4><a href="#" style="margin-left: 20px">პაროლის აღდგენა</a></h4>
-           <input type="submit" value="შესვლა" style="background-color: #00b7f0; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;" >>
+           <input type="submit" value="შესვლა" style="background-color: #00b7f0; margin-top: 20px; padding: 10px; margin-left: 15px; width: 90%; border-radius: 10px;">
        </div>
-       <input type="button" value="რეგისტრაცია" id="btn2">
        <div id="right-bar-2">
+           <a href="main.html" class="times">&times;</a>
            <h1 style="color: white; margin-left: 20px;">რეგისტრაცია</h1>
            <input type="text" placeholder="სახელი(ლათინურად)" class="reg0" style="display: inline-block">
            <input type="text" placeholder="გვარი(ლათინურად)" class="reg0">
@@ -80,94 +100,89 @@
         <input type="Email" placeholder="ელექტრონული ფოსტა*" class="reg1">
         <input type="password" placeholder="შეიყვანეთ პაროლი*" class="reg1">
         <input type="password" placeholder="გაიმეორეთ პაროლი*" class="reg1">
+
+        <input type="Submit" name="რეგისტრაცია" class="regsubmit">
         
        </div>
-
-    <!-- Language Switch -->
-    <div class="lang-menu">
-        <div class="selected-lang">
-            
-        </div>
-        <ul>
-            <li>
-                <a class="en"></a>
-            </li>
-            <li>
-                <a class="ru"></a>
-            </li>
-        </ul>
     </div>
 
-   </div>
-   <!-- Row Options(შეთავაზებები) -->
-   
-   <h1 style="text-align: center;">დაგვიკავშირდით</h1>
-   <div class="bottom">
-        <div class="order">
-            <img src="Pictures/exicon-05.png" class="exc1">
-            <h2 style="max-width:150px; margin-left: 150px;">ქოლ ცენტრი +(995 32) 224 09 09</h2>
-            <p style="max-width:250px; margin-left: 150px;">სამუშაო საათები: ორშაბათი-პარასკევი: 9:30-18:30
-                შაბათი: 10:00-14:00 სთ-მდე
-            </p>
-
+    <!-- Main Options -->
+    <main>
+        <h1 style="text-align: center;">დაგვიკავშირდით</h1>
+        <div class="bottom">
+             <div class="order">
+                 <img src="Pictures/exicon-05.png" class="exc1">
+                 <h2 style="max-width:150px; margin-left: 150px;">ქოლ ცენტრი +(995 32) 224 09 09</h2>
+                 <p style="max-width:250px; margin-left: 150px;">სამუშაო საათები: ორშაბათი-პარასკევი: 9:30-18:30
+                     შაბათი: 10:00-14:00 სთ-მდე
+                 </p>
+     
+             </div>
+             <div class="lprice">
+                 <img src="Pictures/exicon-06.png" class="exc2">
+                 <h2 style="max-width:150px; margin-left: 150px;">ჩვენი სერვის ცენტრები</h2>
+                 <p style="max-width:250px; margin-left: 150px;">მოძებნეთ სასურველი სერვის ცენტრი მთელი საქართველოს მასშტაბით</p>
+             </div>
+             <div class="mark">
+                 <img src="Pictures/exicon-07.png" class="exc3">
+                 <h2 style="max-width:150px; margin-left: 150px;">მოგვწერეთ facebook -ზე</h2>
+             </div>
         </div>
-        <div class="lprice">
-            <img src="Pictures/exicon-06.png" class="exc2">
-            <h2 style="max-width:150px; margin-left: 150px;">ჩვენი სერვის ცენტრები</h2>
-            <p style="max-width:250px; margin-left: 150px;">მოძებნეთ სასურველი სერვის ცენტრი მთელი საქართველოს მასშტაბით</p>
+    </main>
+    <!-- Footer Options -->
+    <footer>
+        <div class="lang-menu">
+            <div class="selected-lang">
+                
+            </div>
+            <ul>
+                <li>
+                    <a class="en"></a>
+                </li>
+                <li>
+                    <a class="ru"></a>
+                </li>
+            </ul>
         </div>
-        <div class="mark">
-            <img src="Pictures/exicon-07.png" class="exc3">
-            <h2 style="max-width:150px; margin-left: 150px;">მოგვწერეთ facebook -ზე</h2>
-        </div>
-   </div>
-
-
-
-
-
-
-
-
-   <!-- Footer Options -->
-   <div class="footer">
         <img src="Pictures/PlayStore.png" class="icon1">
         <img src="Pictures/AppStore.png" class="icon2">
         <p class="uc">© შპს "საქართველოს ფოსტა" ყველა უფლება დაცულია</p>
-
-   </div>
-
-
-   
-   <!-- Script -->
-   <script>
-    document.getElementById("btn1").addEventListener("click",function()
- {
-     var box1=document.getElementById("right-bar");
-     if(box1.style.display=="none")
-     {
-         box1.style.display="block";
-     }
-     else
-     {
-         box1.style.display="none";
-     }
- })
-
- document.getElementById("btn2").addEventListener("click",function()
- {
-     var box1=document.getElementById("right-bar-2");
-     if(box1.style.display=="none")
-     {
-         box1.style.display="block";
-     }
-     else
-     {
-         box1.style.display="none";
-     }
- })
-</script>
-   
-
+    </footer>
+</div>
+    <!-- JavaScript -->
+    <script>
+    function openNav() {
+        document.getElementById("Navigation").style.width = "250px";
+    }
+      
+    function closeNav() {
+        document.getElementById("Navigation").style.width = "0";
+    }
+    
+        document.getElementById("btn1").addEventListener("click",function()
+    {
+        var box1=document.getElementById("right-bar");
+        if(box1.style.display=="none")
+        {
+            box1.style.display="block";
+        }
+        else
+        {
+            box1.style.display="none";
+        }
+    })
+        document.getElementById("btn2").addEventListener("click",function()
+    {
+        var box1=document.getElementById("right-bar-2");
+        if(box1.style.display=="none")
+        {
+            box1.style.display="block";
+        }
+        else
+        {
+            box1.style.display="none";
+        }
+    })
+    </script>
 </body>
 </html>

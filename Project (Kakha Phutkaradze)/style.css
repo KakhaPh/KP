@@ -1,50 +1,120 @@
 *{
-    box-sizing: border-box;
-}
-body {
-    color: #585a5c;
-    background-color: #ffffff;
-    font: normal normal normal 14px/normal 'Arial Web','Arial','Helvetica','Verdana',sans-serif;
-}
-html, body, header, footer, main, nav, section, hgroup, h1, h2, h3, h4, h5, h6, address, article, aside, div, p, dl, dt, dd, ol, ul, li, hr, pre, blockquote, figure, figcaption, a, span, sub, sup, b, i, u, ruby, rt, rp, bdi, bdo, br, wbr, abbr, cite, code, time, samp, dfn, em, kbd, mark, s, small, strong, q, var, del, ins, embed, iframe, img, object, param, video, audio, source, trackcanvas, map, area, table, caption, colgroup, col, thead, tbody, tfoot, tr, th, td, form, label, legend, details, summary, command, menu, menuitem {
-    border: 0 none;
     margin: 0;
     padding: 0;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-div{display:block;
-}
-
-html {
-    font-size: 100%;
-    width: auto;
-    height: auto;
-    -webkit-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+.container{
+    overflow-x: hidden;
 }
 /* Header Options */
-.header{
+header{
+    max-width: 100%;
     height: 80px;
+    display: flex;
     background-color: #00b7f0;
     position: sticky;
-    top: 0;
-    display: flex;
     z-index: 10;
 }
-
-.logo{
-    max-width:100%;
-    max-height: 68%;
-    padding-top: 20px;
-    margin-left: 50px;
+.Logo{
+    position: relative;
+    max-width: 100%;
+    max-height: 30px;
+    vertical-align: top;
+    top: 30%;
+    left: 4%;
 }
- 
+ul{
+    display:flex;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    list-style: none;
+}
+.Links{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Navigation-bar-For-Mobile-And-Tablet */
+
+.Navigation-bar{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    background-color: #00b7f0;
+    display: block;
+    top:30%;
+    left:1%;
+    cursor: pointer;
+    display: none;
+}
+.Navigate {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4d5050;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.Navigate a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+}
+.Navigate li{
+    list-style: none;
+}
+  
+.Navigate .out {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.Navigate .out {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.out{
+    color:#6f7171;
+    padding: 10px;
+    
+}
+.out:hover{
+    color:white;
+}
+
+/* Sign in / Registration */
+
+.signreg{
+    position: absolute;
+    display: flex;
+    right: 25px;
+    height: 80px;
+}
+.Signlogo{
+    position: absolute;
+    left: -120%;
+}
+
 .hder-title{
     margin:20px;
     color: #fff;
@@ -54,27 +124,44 @@ html {
 #right-bar,#right-bar-2{
     border: none;
     background-color: #4d5050;
-    height: 800px;
-    width: 25%;
-    margin-left: 75%;
-    margin-top: 5.9%;
-    position: absolute;
+    height: 100%;
+    width: 30%;
+    position:fixed;
+    z-index: 11;
+    top:0;
+    right:0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
     display: none;
 }
+.times{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
 #btn1{
+    
     border:none;
-    margin-left: 15%;
     color:white;
     background-color:#00b7f0;
-    padding:  10px; 
+    padding: 10px; 
+    right: 0;
 }
 #btn2{
     border: none;
     border-left: solid 1px greenyellow;
     color: white;
     background-color: #00b7f0;
-    margin-left: 1.6%;
+    margin-left: 1%;
     padding: 10px;
+    
+    
 }
 #btn1:hover,#btn2:hover{
     background-color:rgb(80, 99, 187);
@@ -97,7 +184,7 @@ html {
     margin-left: 73.5%;
     margin-top: 20px;
 }
-/* Sign in / Registration Panel */
+/* Registration Panel */
 .reg0{
     margin: 1px 3px;
     width: 160px;
@@ -115,7 +202,6 @@ html {
     background-color:#00b7f0;
     border: none;
 }
-
 /* Language Switch */
 .selected-lang{
     cursor: pointer;
@@ -182,15 +268,6 @@ html {
 .ru:before{
     background-image: url("https://www.countryflags.io/RU/flat/32.png");
 }
-
-/*  Row Options*/
-
-
-.row{
-    overflow-y: hidden;
-    max-width: 100%;
-}
-
 /* Slides */
 .sandy{
     max-width: 40%;
@@ -342,96 +419,127 @@ html {
     width: 250px;
     margin-left:30px;
 }
+
 /* Footer Options */
-.footer{
+footer{
+    max-width: 100%;
     height: 250px;
     background-color: #393b3c;
     display: flex;
-    
 }
 .icon1{
-    margin: 50px;
+    margin: auto 5px;
     width: 150px;
     height: 50px;
     margin-left: 35%;
 }
 .icon2{
-    margin: 50px;
+    margin: auto 0;
     width: 150px;
     height: 50px;
 }
 .uc{
-    margin-top: 150px;
     position: absolute;
-    margin-left: 37%;
     color: white;
+    margin-top: 150px;
+    margin-left: 40%;
 }
-    
- 
-@media only screen and (max-width:768px){
-    .hder-title,.Signlogo{
+
+@media only screen and (max-width:564px){
+    .Links{
         display:none;
+    }
+    .Logo{
+        left: 10%;
+    }
+    .Signlogo{
+        left: -100%;
     }
     #right-bar,#right-bar-2{
-        border: none;
-        background-color: #4d5050;
-        height: 800px;
-        width: 50%;
-        margin-left: 50%;
-        margin-top: 16.5%;
-        position: absolute;
-        display:none;
+        width:70%;
     }
-    .bars{
+    .Navigation-bar{
         display: block;
-        color:black;
-        font-size:50px;
-    }
-    #btn1{
-        margin-left:20%;;
-    }
-    .sandy{
-        display:none
-    }
-    .sandy-title,.sandy-title-2,.sandy-title-under{
-        display:none;
     }
     .bottom{
         flex-wrap: wrap;
-        margin-left: 10%;
+        position: relative;
+        margin-left: 15%;
+        
     }
     .newsfeed{
-        flex-wrap:wrap;
-        margin-left:10%;
+        flex-wrap: wrap;
+        position: relative;
+        right: 0%;
     }
-    .comment{
-        margin-left:8%;
-        width: 80%;
+    .container{
+        max-width: 100%;
     }
-    .footer{
-        flex-wrap:wrap;
+    footer{
+        flex-wrap: wrap;
+    }
+    .icon1{
+        position: relative;
+        margin-top: 5%;
     }
     .icon2{
-        margin-top:-95px;
-        margin-left: 35.5%;
+        position: relative;
+        margin: auto 20% 10% 6%;
+        top: 560%;
+        left:22%;
+    }
+    .uc{display: none;}
+    .sandy,.sandy-title,.sandy-title-2{display:none}
+}
+@media only screen and (max-width:800px){
+    .Links{
+        display: none;
+    }
+    .Logo{
+        left: 10%;
+    }
+    .Signlogo{
+        left: -100%;
+    }
+    #right-bar,#right-bar-2{
+        width:50%;
+    }
+    .Navigation-bar{
+        display: block;
+    }
+    .bottom{
+        flex-wrap: wrap;
+        position: relative;
+        left: -5%;
+        
+    }
+    .newsfeed{
+        flex-wrap: wrap;
+        max-width: 50%;
+        margin: auto;
+    }
+    .container{
+        max-width: 100%;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .icon1{
+        position: relative;
+        margin-top: 20%;
+        margin-left:11%;
+    }
+    .icon2{
+        position: relative;
+        margin: auto 20% 10% 6%;
+        top:0%;
+        left:30%;
     }
     .uc{
-        width:100%;
-        margin-left:10%;
+        position: absolute;
+        left: -20%;
     }
+    .sandy,.sandy-title,.sandy-title-2{display:none}
 }
- 
- @media (min-width:768px){
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
+
+
