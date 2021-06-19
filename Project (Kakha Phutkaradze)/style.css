@@ -419,6 +419,11 @@ ul{
     width: 250px;
     margin-left:30px;
 }
+/* Embed */
+.embedvideo{
+    min-width: 100%;
+    min-height:500px;
+}
 
 /* Footer Options */
 footer{
@@ -427,14 +432,17 @@ footer{
     background-color: #393b3c;
     display: flex;
 }
+.Forfooter{
+    border: none;
+    min-height: 50px;
+    margin: auto 30%;
+}
 .icon1{
-    margin: auto 5px;
     width: 150px;
     height: 50px;
-    margin-left: 35%;
+
 }
 .icon2{
-    margin: auto 0;
     width: 150px;
     height: 50px;
 }
@@ -442,7 +450,7 @@ footer{
     position: absolute;
     color: white;
     margin-top: 150px;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 @media only screen and (max-width:564px){
@@ -450,10 +458,15 @@ footer{
         display:none;
     }
     .Logo{
-        left: 10%;
+        left: 6%;
+    }
+    .signreg{
+        margin-right: -5%;
     }
     .Signlogo{
-        left: -100%;
+        left: -90%;
+        top: 10%;
+        width: 18%;
     }
     #right-bar,#right-bar-2{
         width:70%;
@@ -464,7 +477,7 @@ footer{
     .bottom{
         flex-wrap: wrap;
         position: relative;
-        margin-left: 15%;
+        margin-left: -15%;
         
     }
     .newsfeed{
@@ -478,20 +491,15 @@ footer{
     footer{
         flex-wrap: wrap;
     }
-    .icon1{
-        position: relative;
-        margin-top: 5%;
-    }
-    .icon2{
-        position: relative;
-        margin: auto 20% 10% 6%;
-        top: 560%;
-        left:22%;
+    .Forfooter{
+        margin-left:  30%;
+        margin-top: -20%;
+        width: 120px;
     }
     .uc{display: none;}
-    .sandy,.sandy-title,.sandy-title-2{display:none}
+    .sandy,.sandy-title,.sandy-title-2,.sandy-title-under{display:none}
 }
-@media only screen and (max-width:800px){
+@media only screen and (max-width:1000px) and (min-width:565px) {
     .Links{
         display: none;
     }
@@ -524,22 +532,14 @@ footer{
     footer{
         flex-wrap: wrap;
     }
-    .icon1{
-        position: relative;
-        margin-top: 20%;
-        margin-left:11%;
-    }
-    .icon2{
-        position: relative;
-        margin: auto 20% 10% 6%;
-        top:0%;
-        left:30%;
+    .Forfooter{
+        margin: auto 20%;
     }
     .uc{
-        position: absolute;
-        left: -20%;
+        display: block;
+        margin: auto 30%;
     }
-    .sandy,.sandy-title,.sandy-title-2{display:none}
+    .sandy,.sandy-title,.sandy-title-2,.sandy-title-under{display:none}
 }
 
 
