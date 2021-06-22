@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz - Kakha Phutkaradze</title>
+</head>
+<body>
+    <!-- Header Options -->
+    <header>
+        <h2 class="Title">Lifeleck</h2>
+        <div class="Links">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pages</a></li>
+        </ul>
+        <div class="Forlogos">
+            <img src="Images/skype.jpg" class="Logo">
+            <img src="Images/twitter.png" class="Logo">
+            <img src="Images/insta.png" class="Logo">
+            <img src="Images/fb.png" class="Logo">
+            <img src="Images/Screenshot_1.png" class="Logo">
+        </div>
+    </div>
+                                    <!-- Navigation-bar-For-Mobile -->
+        <span class="Navigation-bar" onclick="openNav()">&#9776;</span>
+        <div id="Navigation" class="Navigate">
+            <i href="javascript:void(0)" class="out" onclick="closeNav()">&times;</i>     
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Pages</a></li>
+        </div>
+
+
+    </header>
+    <!-- Main Options -->
+    <main>
+        <div class="Formain">
+            <div class="forimage1"><img src="Images/Image1.png"> <div class="titleborder"><p class="imagetitle">Fashion/Life style</p>
+            <h3 class="imagetitle2">All said replenish years void kind say void</h3> <p class="imagetitle3">Posted on April 15, 2019</p>
+            </div></div>
+
+            <div class="forimage2"><img src="Images/Image2.png"> <div class="titleborder"><p class="imagetitle">Fashion/Life style</p>
+            <h3 class="imagetitle2">All said replenish years void kind say void</h3> <p class="imagetitle3">Posted on April 15, 2019</p>
+            </div></div>
+           
+            <div class="forimage3"><img src="Images/Image3.png"> <div class="titleborder"><p class="imagetitle">Fashion/Life style</p>
+            <h3 class="imagetitle2">All said replenish years void kind say void</h3> <p class="imagetitle3">Posted on April 15, 2019</p>
+            </div></div>
+        </div>
+    </main>
+
+    <script>
+    function openNav() {
+        document.getElementById("Navigation").style.width = "250px";
+    }
+      
+    function closeNav() {
+        document.getElementById("Navigation").style.width = "0";}
+    </script>
+</body>
+</html>
